@@ -1,0 +1,10 @@
+现在我们来实现一个例子。在常见的IOS应用程序，底部都有一个TabBar。那么在IOS中是如何使用TabBar呢。
+传统的IOS实现方式：
+一、简单介绍
+
+  storyboard的比较，用来描述整个软件的多个界面，并且能展示多个界面之间的跳转关系
+二、xib的简单使用
+  1.建立xib文件，选择User Interface模块下的Empty文件，创建文件名为：launcher.xib。
+  2.对xib进行设置，这里把view调整为自由布局。
+    点击View选择
+  
