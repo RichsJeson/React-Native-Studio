@@ -1,0 +1,12 @@
+现在我们来实现一个例子。在常见的IOS应用程序，底部都有一个TabBar。那么在IOS中是如何使用TabBar呢。
+传统的IOS实现方式：
+一、简单介绍
+  storyboard的比较，用来描述整个软件的多个界面，并且能展示多个界面之间的跳转关系
+二、storyboard连线图
+  1.建立storyboard文件，选择User Interface模块下的storyboard文件，创建文件名为：launcher.storyboard。
+  2.将Tab Bar Controller和Navigation Controller连线，连线完成后。通过点击Tab Bar Item进入导航界面Navigation Controller（每一个Tab Bar Item所对应的页面）。而每一个导航Navigation Controller通过连线连接到下一个界面View Controller。
+  见证了IOS 传统开发模式。同样的React Native IOS也遵循IOS的连线规范。即当我启动一个页面Launcher，加载完成后，进入Tab Bar Controller界面（TabBarIOS）,在Tab Bar Controller配置四个Tab Bar Item(TabBarIOS.Item)。同时，将Tab Bar Item和后续的组件（NavigatorBarIOS）进行连线。
+  即：
+  
+  
+  
